@@ -1,0 +1,34 @@
+================================================================================
+FLEXIMART DATA QUALITY REPORT
+================================================================================
+Generated on: 2025-12-21 22:24:32
+
+CUSTOMERS DATA QUALITY METRICS
+--------------------------------------------------------------------------------
+Records read from file: 26
+Duplicates removed: 1
+Missing emails handled: 5
+Missing phones handled: 0
+Phone formats standardized: 23
+Date formats fixed: 5
+Records loaded successfully: 25
+
+PRODUCTS DATA QUALITY METRICS
+--------------------------------------------------------------------------------
+Records read from file: 20
+Duplicates removed: 0
+Missing prices handled (dropped): 3
+Missing stock handled (defaulted to 0): 1
+Category names standardized: 8
+Records loaded successfully: 17
+
+SALES DATA QUALITY METRICS
+--------------------------------------------------------------------------------
+Records read from file: 41
+Duplicates removed: 1
+Records with missing customer_id (dropped): 3
+Records with missing product_id (dropped): 2
+Date formats fixed: 10
+Order items loaded successfully: 32
+
+================================================================================
